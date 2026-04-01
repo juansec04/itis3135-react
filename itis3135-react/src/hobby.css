@@ -1,0 +1,155 @@
+/* Hobby Page Styles */
+
+.hobby-page {
+  --bg: #0d1b16;
+  --box: #173229;
+  --box2: #22483c;
+  --gold: #f4c542;
+  --mint: #b8f2d0;
+  --text: #f5f5f5;
+}
+
+.hobby-page * {
+  box-sizing: border-box;
+}
+
+.hobby-page {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(135deg, #08120f, #123126);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.hobby-page header,
+.hobby-page main,
+.hobby-page footer {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.hobby-page header {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.hobby-page h1 {
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.hobby-page nav {
+  background: var(--box);
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+
+.hobby-page nav button {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hobby-page nav button:hover,
+.hobby-page nav button:focus {
+  color: var(--mint);
+  text-decoration: underline;
+}
+
+.hobby-page section {
+  background: var(--box);
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-left: 6px solid var(--gold);
+  border-radius: 12px;
+}
+
+.hobby-page h2 {
+  color: var(--gold);
+  margin-top: 0;
+}
+
+.hobby-page .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.hobby-page .card {
+  background: var(--box2);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.hobby-page figure {
+  margin: 1rem 0 0;
+  background: var(--box2);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.hobby-page img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.hobby-page figcaption {
+  margin-top: 0.6rem;
+  font-weight: bold;
+  color: var(--mint);
+  text-align: center;
+}
+
+.hobby-page figure p {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.hobby-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: var(--box2);
+}
+
+.hobby-page th,
+.hobby-page td {
+  border: 1px solid #3d6d5c;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.hobby-page th {
+  color: var(--gold);
+}
+
+.hobby-page footer {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.hobby-page footer a {
+  color: var(--gold);
+  text-decoration: none;
+  margin: 0 0.4rem;
+  font-weight: bold;
+}
+
+.hobby-page footer a:hover,
+.hobby-page footer a:focus {
+  color: var(--mint);
+  text-decoration: underline;
+}
