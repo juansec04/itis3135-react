@@ -1,5 +1,6 @@
 import React from "react";
 import "./review1.css";
+import screenshot2 from './images2/screenshot2.jpg';
 
 function Review2() {
   return (
@@ -14,7 +15,7 @@ function Review2() {
 
         <figure className="peer-figure">
           <img
-            src="/screenshot2.jpg"
+            src={screenshot2}
             alt="Screenshot of classmate website"
           />
           <figcaption>
