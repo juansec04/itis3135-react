@@ -16,7 +16,6 @@ export default function Header() {
         <Link to="/intro-form">Intro Form</Link>
       </nav>
 
-      <
 
       <nav aria-label="Secondary Navigation">
         <Link to="/website-evaluations">Website Evaluations</Link> |{" "}
@@ -25,9 +24,6 @@ export default function Header() {
         <Link to="/slideshow">Slideshow</Link>
       </nav>
 
-      <nav>
-        <Link to="/project">Client Project</Link>
-      </nav>
         </header>
     );
 }
