@@ -15,6 +15,7 @@ import Intro_form from './intro_form.jsx'
 import Website_evaluations from './website_evaluations.jsx'
 import CrappyPage from './CrappyPage.jsx'
 import Hobby from './hobby.jsx'
+import Slideshow from '../slideshow.jsx'
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
         <Route element={<Website_evaluations />} path="/website-evaluations" />
         <Route element={<CrappyPage />} path="/crappy" />
         <Route element={<Hobby />} path="/hobby" />
+        <Route element={<Slideshow />} path="/slideshow" />
       </Routes>
       <Footer />
     </HashRouter>
