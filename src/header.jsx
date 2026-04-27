@@ -14,13 +14,15 @@ export default function Header() {
         <Link to="/documentation">Documentation</Link> |{" "}
         <Link to="/product">Product</Link> |{" "}
         <Link to="/intro-form">Intro Form</Link>
-
       </nav>
+
+      <
 
       <nav aria-label="Secondary Navigation">
         <Link to="/website-evaluations">Website Evaluations</Link> |{" "}
         <Link to="/crappy">CRAPpy Page</Link> |{" "}
-        <Link to="/hobby">Hobby</Link>
+        <Link to="/hobby">Hobby</Link> |{" "}
+        <Link to="/slideshow">Slideshow</Link>
       </nav>
 
       <nav>
