@@ -13,7 +13,9 @@ export default function Header() {
         <Link to="/inventory">Inventory</Link> |{" "}
         <Link to="/documentation">Documentation</Link> |{" "}
         <Link to="/product">Product</Link> |{" "}
-        <Link to="/intro-form">Intro Form</Link>
+        <Link to="/intro-form">Intro Form</Link> |{" "}
+        <Link to="/project-overview">Project Overview</Link> |{" "}
+        <Link to="/client-project">Client Project</Link>
       </nav>
 
 
@@ -21,6 +23,8 @@ export default function Header() {
         <Link to="/website-evaluations">Website Evaluations</Link> |{" "}
         <Link to="/crappy">CRAPpy Page</Link> |{" "}
         <Link to="/hobby">Hobby</Link> |{" "}
+        <Link to="/review1">Review 1</Link> |{" "}
+        <Link to="/review2">Review 2</Link> |{" "}  
         <Link to="/slideshow">Slideshow</Link>
       </nav>
         </header>
