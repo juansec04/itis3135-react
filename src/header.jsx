@@ -23,7 +23,6 @@ export default function Header() {
         <Link to="/hobby">Hobby</Link> |{" "}
         <Link to="/slideshow">Slideshow</Link>
       </nav>
-
         </header>
     );
 }
